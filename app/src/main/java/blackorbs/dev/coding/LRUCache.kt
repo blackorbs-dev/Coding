@@ -1,16 +1,16 @@
 package blackorbs.dev.coding
 
 fun main() {
-    val cache = LRUCache<Int>(2)
-    cache.put(1, 1)
-    cache.put(2, 2)
-    println(cache.get(1)) // Returns 1
-    cache.put(3, 3) // Evicts key 2
-    println(cache.get(2)) // Returns null (not found)
-    cache.put(4, 4) // Evicts key 1
-    println(cache.get(1)) // Returns null (not found)
-    println(cache.get(3)) // Returns 3
-    println(cache.get(4)) // Returns 4
+//    val cache = LRUCache<Int>(2)
+//    cache.put(1, 1)
+//    cache.put(2, 2)
+//    println(cache.get(1)) // Returns 1
+//    cache.put(3, 3) // Evicts key 2
+//    println(cache.get(2)) // Returns null (not found)
+//    cache.put(4, 4) // Evicts key 1
+//    println(cache.get(1)) // Returns null (not found)
+//    println(cache.get(3)) // Returns 3
+//    println(cache.get(4)) // Returns 4
 }
 
 //class LRUCache<T>(private val capacity: Int){
